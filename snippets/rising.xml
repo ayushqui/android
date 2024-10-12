@@ -22,6 +22,8 @@
   <!-- RisingOS Overrides -->
   <!-- Android Manifest  -->
   <remove-project path="android" />
+  <!-- Bionic  -->
+  <remove-project path="bionic" />
   <!-- Bootable  -->
   <remove-project path="bootable/deprecated-ota" />
   <remove-project path="bootable/recovery" />
@@ -78,6 +80,9 @@
   <project path="android" name="android" remote="staging" />
   <project path="risingOS_changelogs" name="risingOS_changelogs" remote="staging" />
   <project path="risingOS_wiki" name="risingOS_wiki" remote="staging" />
+
+  <!-- Bionic  -->
+  <project path="bionic" name="android_bionic" groups="pdk" remote="staging" />
 
   <!-- Bootable  -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="staging" />
