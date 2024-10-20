@@ -31,7 +31,6 @@
   <!-- Bionic  -->
   <remove-project path="bionic" />
   <!-- Bootable  -->
-  <remove-project path="bootable/deprecated-ota" />
   <remove-project path="bootable/recovery" />
   <!-- Build  -->
   <remove-project path="build/make" />
@@ -45,11 +44,8 @@
   <remove-project path="frameworks/native" />
   <remove-project path="frameworks/opt/telephony" />
   <!-- Hardware  -->
-  <remove-project path="hardware/google/pixel" />
   <remove-project path="hardware/lineage/interfaces" />
   <remove-project path="hardware/interfaces" />
-  <!-- Kernel Configs  -->
-  <remove-project path="kernel/configs" />
   <!-- Lineage SDK  -->
   <remove-project path="lineage-sdk" />
   <!-- Non-AOSP Packages  -->
@@ -67,15 +63,10 @@
   <remove-project path="packages/modules/common" />
   <remove-project path="packages/modules/Connectivity" />
   <!-- System  -->
-  <remove-project path="system/bpf" />
   <remove-project path="system/core" />
-  <remove-project path="system/extras" />
   <remove-project path="system/libhidl" />
-  <remove-project path="system/netd" />
-  <remove-project path="system/security" />
   <remove-project path="system/sepolicy" />
   <remove-project path="system/update_engine" />
-  <remove-project path="system/vold" />
   <!-- Vendor  -->
   <remove-project path="vendor/lineage" />
   <!-- Vendor - Qualcomm  -->
@@ -92,7 +83,6 @@
 
   <!-- Bootable  -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="staging" />
-  <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" groups="pdk-cw" remote="staging" />
 
   <!-- Build  -->
   <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="staging" >
@@ -123,12 +113,8 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="staging" />
 
   <!-- Hardware  -->
-  <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm" remote="staging" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="staging" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="staging" />
-
-  <!-- Kernel Configs  -->
-  <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="staging" />
 
   <!-- Lineage SDK  -->
   <project path="lineage-sdk" name="android_lineage-sdk" remote="staging" />
@@ -158,15 +144,10 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity_new" groups="pdk-cw-fs,pdk-fs" remote="staging" />
 
   <!-- System  -->
-  <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="staging" />
   <project path="system/core" name="android_system_core_new" groups="pdk" remote="staging" />
-  <project path="system/extras" name="android_system_extras" groups="pdk" remote="staging" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk,sysui-studio" remote="staging" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="staging" />
-  <project path="system/security" name="android_system_security" groups="pdk" remote="staging" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="staging" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="staging" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="staging" />
 
   <!-- Vendor  -->
   <project path="vendor/addons" name="android_vendor_addons" remote="staging" />
