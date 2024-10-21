@@ -49,7 +49,9 @@
   <!-- Lineage SDK  -->
   <remove-project path="lineage-sdk" />
   <!-- Non-AOSP Packages  -->
+  <remove-project path="packages/apps/AudioFX" />
   <remove-project path="packages/apps/Backgrounds" />
+  <remove-project path="packages/apps/Eleven" />
   <remove-project path="packages/apps/Trebuchet" />
   <remove-project path="packages/apps/LineageParts" />
   <remove-project path="packages/apps/Jelly" />
