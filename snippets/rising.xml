@@ -105,6 +105,7 @@
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="staging" />
   
   <!-- External -->
+  <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="staging" />
   <project path="external/tigervnc" name="android_external_tigervnc" groups="pdk" remote="staging" />
 
   <!-- Frameworks  -->
