@@ -17,7 +17,7 @@
           fetch="https://gitlab.com/RisingTechOSS/"
           sync-c="true"
           sync-j="4"
-          revision="refs/heads/fourteen" />
+          revision="refs/heads/fifteen" />
 
   <remote  name="crdroid-gitlab"
            fetch="https://gitlab.com/crdroidandroid/"
