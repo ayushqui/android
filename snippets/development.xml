@@ -23,6 +23,12 @@
           sync-j="4"
           revision="refs/heads/lineage-22.0" />
 
+  <remote name="muppets"
+          fetch="https://github.com/TheMuppets/"
+          sync-c="true"
+          sync-j="4"
+          revision="refs/heads/lineage-22.0" />
+
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-21" />
   <project path="device/xiaomi/nabu" name="android_device_xiaomi_nabu" remote="mnri" />
   <project path="kernel/xiaomi/nabu" name="android_kernel_xiaomi_nabu" remote="mnri" />
@@ -35,4 +41,6 @@
   <project path="device/google/pantah" remote="mnri" name="android_device_google_pantah" />
   <project path="device/google/gs201" remote="mnri" name="android_device_google_gs201" />
   <project path="device/google/gs101" remote="github" name="LineageOS/android_device_google_gs101" revision="lineage-22.0" />
+  
+  <project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="muppets" />
 </manifest>
