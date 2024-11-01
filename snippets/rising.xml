@@ -70,6 +70,7 @@
   <!-- System  -->
   <remove-project path="system/core" />
   <remove-project path="system/libhidl" />
+  <remove-project path="system/memory/lmkd" />
   <remove-project path="system/sepolicy" />
   <remove-project path="system/update_engine" />
   <!-- Vendor  -->
@@ -156,6 +157,7 @@
   <!-- System  -->
   <project path="system/core" name="android_system_core_new" groups="pdk" remote="rising" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk,sysui-studio" remote="rising" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" groups="pdk" remote="rising" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="rising" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="rising" />
 
