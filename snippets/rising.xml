@@ -74,8 +74,6 @@
   <remove-project path="system/update_engine" />
   <!-- Vendor  -->
   <remove-project path="vendor/lineage" />
-  <!-- Vendor - Qualcomm  -->
-  <remove-project path="vendor/qcom/opensource/commonsys/fm" />
   <!-- RisingOS Overrides -->
 
   <!-- Android Manifest  -->
@@ -168,7 +166,4 @@
   <project path="vendor/rising" name="android_vendor_rising" groups="pdk-fs" remote="rising" />
   <project path="vendor/risingOTA" name="RisingOSS-devices/android_vendor_RisingOTA" remote="github" revision="fourteen" />
   <!-- <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="rising" />-->
-  
-  <!-- Vendor - Qualcomm  -->
-  <project path="vendor/qcom/opensource/commonsys/fm" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="rising" />
 </manifest>
