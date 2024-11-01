@@ -167,5 +167,4 @@
   <project path="vendor/lineage" name="android_vendor_lineage" remote="rising" />
   <project path="vendor/rising" name="android_vendor_rising" groups="pdk-fs" remote="rising" />
   <project path="vendor/risingOTA" name="RisingOSS-devices/android_vendor_RisingOTA" remote="github" revision="fourteen" />
-  <!-- <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="rising" />-->
 </manifest>
