@@ -46,8 +46,9 @@
   <remove-project path="frameworks/native" />
   <remove-project path="frameworks/opt/telephony" />
   <!-- Hardware  -->
-  <remove-project path="hardware/lineage/interfaces" />
+  <remove-project path="hardware/google/graphics/common" />
   <remove-project path="hardware/interfaces" />
+  <remove-project path="hardware/lineage/interfaces" />
   <!-- Lineage SDK  -->
   <remove-project path="lineage-sdk" />
   <!-- Non-AOSP Packages  -->
@@ -121,8 +122,9 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="rising" />
 
   <!-- Hardware  -->
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="rising" />
+  <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" remote="rising" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="rising" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="rising" />
 
   <!-- Lineage SDK  -->
   <project path="lineage-sdk" name="android_lineage-sdk" remote="rising" />
