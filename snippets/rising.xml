@@ -36,6 +36,7 @@
   <remove-project path="bootable/recovery" />
   <!-- Build  -->
   <remove-project path="build/make" />
+  <remove-project path="build/release" />
   <remove-project path="build/soong" />
   <!-- Device  -->
   <remove-project path="device/lineage/sepolicy" />
@@ -106,6 +107,8 @@
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
+  
+  <project path="build/release" name="android_build_release" groups="pdk,tradefed" remote="rising" />
 
   <!-- Device  -->
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="rising" />
