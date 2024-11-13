@@ -83,7 +83,6 @@
 
   <!-- Vendor -->
   <project path="vendor/addons" name="RisingTechOSS/android_vendor_addons" revision="thirteen" />
-  <project path="vendor/gms" name="minaripenguin/android_vendor_gms" remote="gitlab" revision="tm-qpr3" />
   <project path="vendor/rising-prebuilts" name="RisingTechOSS/android_vendor_rising-prebuilts" revision="thirteen" />
   <project path="vendor/lineage" name="RisingTechOSS/android_vendor_rising" revision="thirteen" />
   <project path="vendor/pixel-framework" name="RisingTechOSS/vendor_pixel-framework" revision="thirteen" />
@@ -96,7 +95,6 @@
   <project path="hardware/qcom-caf/sm8350/display" name="RisingTechOSS/android_hardware_qcom_display_sm8350" groups="qcom" revision="thirteen" />
   <project path="hardware/qcom-caf/sm8350/media" name="RisingTechOSS/android_hardware_qcom_media_sm8350" groups="qcom" revision="thirteen" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="RisingTechOSS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" revision="thirteen" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="RisingTechOSS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" revision="thirteen" />
   <project path="vendor/qcom/opensource/display" name="RisingTechOSS/android_vendor_qcom_opensource_display" groups="qcom" revision="thirteen" />
   <project path="vendor/qcom/opensource/interfaces" name="RisingTechOSS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" revision="thirteen" />
 
