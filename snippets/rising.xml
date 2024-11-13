@@ -5,7 +5,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
-  <project path="build/make" name="RisingTechOSS/android_build" groups="pdk" revision="thirteen" >
+  <project path="build/make" name="ayushqui/android_build" groups="pdk" revision="thirteen" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -20,7 +20,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="RisingTechOSS/android_frameworks_av" groups="pdk" revision="thirteen" />
-  <project path="frameworks/base" name="RisingTechOSS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="frameworks/base" name="ayushqui/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="frameworks/libs/net" name="RisingTechOSS/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="frameworks/libs/systemui" name="RisingTechOSS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="frameworks/native" name="RisingTechOSS/android_frameworks_native" groups="pdk" revision="thirteen" />
@@ -60,10 +60,10 @@
   <project path="packages/apps/Nfc" name="RisingTechOSS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" revision="thirteen" />
   <project path="packages/apps/ParallelSpace" name="RisingTechOSS/android_packages_apps_ParallelSpace" revision="thirteen" />
   <project path="packages/apps/Personalizations" name="RisingTechOSS/android_packages_apps_Personalizations" groups="pdk-fs" revision="thirteen" />
-  <project path="packages/apps/Settings" name="RisingTechOSS/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/Settings" name="ayushqui/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
 
   <!-- Modules -->  
-  <project path="packages/modules/Bluetooth" name="RisingTechOSS/android_packages_modules_Bluetooth" groups="pdk" revision="thirteen"/>
+  <project path="packages/modules/Bluetooth" name="ayushqui/android_packages_modules_Bluetooth" groups="pdk" revision="thirteen"/>
   <project path="packages/modules/Permission" name="RisingTechOSS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
 
   <!-- Providers -->  
