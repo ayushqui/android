@@ -26,7 +26,7 @@ rm -rf external/chromium-webview/prebuilt/*
 rm -rf .repo/projects/external/chromium-webview/prebuilt/*.git
 rm -rf .repo/project-objects/LineageOS/android_external_chromium-webview_prebuilt_*.git
 
-repo init --depth=1 --no-repo-verify -u https://github.com/RisingTechOSS/android -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/ayushqui/android -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
 ```
 **in case of repo syncing failures try this instead**
 
