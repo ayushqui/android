@@ -30,7 +30,7 @@
   <project path="external/noto-fonts" name="RisingTechOSS/android_external_noto-fonts"  revision="thirteen" />
   <project path="external/roboto-fonts" name="RisingTechOSS/android_external_roboto-fonts"  revision="thirteen" />
   <project path="external/piex" name="RisingTechOSS/android_external_piex" groups="pdk" revision="thirteen"/>
-  <project path="external/skia" name="RisingTechOSS/android_external_skia" groups="pdk,qcom_msm8x26" revision="thirteen" />
+  <project path="external/skia" name="ayushqui/android_external_skia" groups="pdk,qcom_msm8x26" revision="thirteen" />
   <project path="external/tigervnc" name="RisingTechOSS/android_external_tigervnc" groups="pdk" revision="thirteen" />
 
    <!-- Hardware (AOSP) -->
@@ -67,11 +67,12 @@
   <project path="packages/modules/Permission" name="RisingTechOSS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
 
   <!-- Providers -->  
-  <project path="packages/providers/MediaProvider" name="RisingTechOSS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="packages/providers/MediaProvider" name="ayushqui/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="packages/providers/DownloadProvider" name="ayushqui/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" revision="tiramisu" />
 
   <!-- Services -->  
   <project path="packages/services/OmniJaws" name="RisingTechOSS/packages_services_OmniJaws" revision="thirteen" />
-  <project path="packages/services/Telecomm" name="RisingTechOSS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="thirteen"/>
+  <project path="packages/services/Telecomm" name="ayushqui/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="thirteen"/>
   <project path="packages/services/Telephony" name="RisingTechOSS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" revision="thirteen"/>
 
   <!-- System -->
